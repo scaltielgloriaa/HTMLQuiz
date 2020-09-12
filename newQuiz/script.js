@@ -1,4 +1,4 @@
-// code by webdevtrick (https://webdevtrick.com)
+
 function Quiz(questions) {
     this.score = 0;
     this.questions = questions;
@@ -84,7 +84,7 @@ var questions = [
     new Question("Which tag contains the visual part of the web page?", ["header", "body", "footer", "head"], "body"),
     new Question("What is the correct HTML element for inserting a line break?", ["hr", "break", "lb", "br"], "br"),
     new Question("Choose the correct HTML element to define important text", ["b", "em", "i", "strong"], "strong"),
-    new Question("Which of these elements are all simple <table> elements?", ["table,tr,tt", "table,th,td", "table,tr,td", "thead,th,td"], "table,tr,td"),
+    new Question("Which of these elements are all simple table elements?", ["table,tr,tt", "table,th,td", "table,tr,td", "thead,th,td"], "table,tr,td"),
     new Question("How can you open a link in a new tab/browser window?", ["[a src='http://www.google.com' target='_blank'] [/a]", "[a url='http://www.google.com' target='new'] [/a]", "[a href='http://www.google.com' target='_blank'] [/a]", "[a href='http://www.google.com' target='new'] [/a]"], "[a href='http://www.google.com' target='_blank'] [/a]"),
     new Question("Which character is used to indicate an end tag?", ["*", "/", "<", ">"], "/"),
     new Question("What is the correct HTML for creating a hyperlink?", ["[a src='http://www.google.com'] [/a]", "[a href='http://www.google.com'] [/a]", "[a url='http://www.google.com'] [/a]", "[a http://www.google.com] [/a]"], "[a href='http://www.google.com'] [/a]"),
